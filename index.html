@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Glutton Free Dog</title>
+  </head>
+
+<body>
+    <!--Game Screen-->
+    <div id="game-screen">
+      <canvas id="Canvas" width="1000" height="700"></canvas>
+    </div>
+
+    <!--Splash screen-->
+
+    <div id="game-splash">
+      <div>
+      <h1>Glutton Free Dog</h1>
+      <p>
+        
+        <h3><strong>How to play:</strong>
+          <p>If the dog eats any food containing
+            gluten, the player loses a life.</p>
+          <p>When the player loses all
+            three lives it's <strong>Game Over</strong>.</p> 
+          For each correct food caught, the player receives 10 points.</h3>
+      </p>
+
+      <button id="start-button" class="btn">Start Game</button>
+    </div>
+    </div>
+
+    <!--When the player wins-->
+<div id="win-container">
+      
+      <h1>Well Done! You did it!!</h1>
+      <button id="win-button" class="btn">Let's do it Again!</button>
+     </div>
+
+
+    <!--When is game over-->
+    <div id="gameover-screen">
+      <h1>Oh no, Game Over!</h1>
+        <p id="textgameover">
+          <h2><strong>Too much gluten food for you...</strong></h2>
+        </p>
+        <button id="replay-button" class="btn">Restart</button>
+      </div>
+   
+
+    <script src="./script.js"></script>
+  </body>
+</html>
