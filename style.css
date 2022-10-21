@@ -1,146 +1,152 @@
 * {
-    margin: 3;
-    padding: 3;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-   
-  
-  }
-  
-  body {
-      text-align: center;
-      cursor: crosshair;
-      color: black;
-     display: flex;
-     justify-content: center;
-      align-items: center;
+  margin: 3;
+  padding: 3;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
 
-    }
-
-p {
-  padding: 0 350px;
  
+
 }
 
-    h1 {
-     
-      font-size: 400%;
-      color: brown;
-      text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  h2 {
-
-    font-size: 200%;
-    color: rgb(115, 49, 15);
+body {
     text-align: center;
-    font-family: 'Franklin Gothic Medium';
-
-  }
-
-  h3 {
- 
-    color: rgb(87, 37, 12);
-    text-align: center;
-    font-family: 'arial';
-
-  }
-  img {
-   
-    top: 100px;
-    left: 750px;
-    width: 500px;
-    height: 400px;
-  }
-  
-  #game-splash {
-    height: 90vh;
-    background-image: url('./images/splash.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
+    cursor: crosshair;
+    color: black;
+   display: flex;
+   justify-content: center;
     align-items: center;
-    justify-content: center;
 
   }
-  #splash {
-    
-    top: 50px;
-    width: 1200px;
-    height: 504px;
+
+p { padding: 0 350px;
+
+
+}
+
+  h1 {
+   
+    font-size: 4rem;
+    color: brown;
     text-align: center;
-    
-  }
-  #game-splash div {
-   margin-top: 200px;
-   margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  }
+h2 {
 
-  #game-instructions h1 {
-    position: center;
-    top: 100px;
-    left: 320px;
-    color: rgb(97, 47, 14);
-    font-family: cursive;
-    font-size: 2em;
-    
-  }
+  font-size: 200%;
+  color: rgb(115, 49, 15);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
 
-  .btn {
+h3 {
+
+  color: rgb(87, 37, 12);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+img {
+ 
+  top: 100px;
+  left: 750px;
+  width: 500px;
+  height: 400px;
+}
+
+#game-splash {
+  height: 90vh;
+  background-image: url('./images/splash.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#splash {
   
-    font-size: 20px;
-    background-color: rgb(192, 32, 32);
-    color: white;
-    padding: 5px 10px;
-    border: 1;
-    border-color: rgb(240, 226, 165);
-    box-shadow: 0;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    cursor: default;
-  }
+  top: 50px;
+  width: 1200px;
+  height: 504px;
+  text-align: center;
   
+}
+#game-splash div {
+ margin-top: 200px;
+ margin-left: 100px;
+
+}
+
+#game-instructions h1 {
+  position: center;
+  top: 100px;
+  left: 320px;
+  color: rgb(97, 47, 14);
+  font-family: cursive;
+  font-size: 2em;
+  
+}
+
+
+.btn {
+
+  font-size: 20px;
+  background-color: rgb(192, 32, 32);
+  color: white;
+  padding: 5px 10px;
+  border: 1;
+  border-color: rgb(240, 226, 165);
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
 
 #win-container {
-   background-image: url('./images/winner.png');
-   background-repeat: no-repeat; 
-   background-size: cover;
-   height: 600px;
-   width: 1000px;
-    font-size: 15px;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-  } 
+ background-image: url('./images/winner.png');
+ background-repeat: no-repeat; 
+ background-size: cover;
+ height: 600px;
+ width: 1000px;
+ display: flex;
+  font-size: 15px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  #gameover-screen {
-    background-image: url('./images/gameover.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1000px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  canvas {  
-    display: none;
-    position: absolute;
-    top: 100px;
-    left: 450px;
-    background-color:rgb(222, 168, 82);
  
-  }
+} 
+
+
+
+
+#gameover-screen {
+  background-image: url('./images/gameover.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+canvas {  
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  background-color:rgb(222, 168, 82);
+
+}

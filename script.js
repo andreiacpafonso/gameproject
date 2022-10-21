@@ -51,7 +51,7 @@ let dogmovingRight = false;
  
 
 const song = new Audio("./audio/gamesong.wav");
-
+song.loop = true;
 // food without Gluten 
 
 const food = new Image();
@@ -161,7 +161,7 @@ function startPage() {
    
 }
 
-// Restart (replay-button2 "Let's Give this another shot!")
+// Restart (replay-button2 "Let's do it again!")
 
 function resetGame(){
     healthScore = 0
@@ -197,7 +197,7 @@ function gameOverScreen(){
 
 // to show Winner screen
 function winGame(){
-  winnerScreen.style.display = "block";
+  winnerScreen.style.display = "flex";
   gameoverScreen.style.display = "none";
   gameScreen.style.display = "none";
   canvas.style.display = "none";
